@@ -1,4 +1,3 @@
-
 /* ===== EDIT HERE ===== */
 // Contact form: messages are delivered straight to this inbox through FormSubmit (free, no account needed).
 // One-time step: after the FIRST message is sent from the live site, FormSubmit emails an activation link to this address. Click it once and every later message arrives automatically.
