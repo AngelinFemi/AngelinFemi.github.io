@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Angelin Femi C</title>
+<meta name="description" content="Portfolio of Angelin Femi C, M.E. CSE student in software engineering, AI and fintech.">
+<meta property="og:title" content="Contact | Angelin Femi C">
+<meta property="og:description" content="Portfolio of Angelin Femi C, M.E. CSE student in software engineering, AI and fintech.">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="contact">
+<div id="hdr"></div>
+<main class="wrap">
+<div class="grid g2" style="align-items:start">
+<div><h1 class="t contact-heading">What’s Brewing in Your Mind? <span class="gradient-word">Let’s Connect!</span></h1>
+<p class="lead">Got an idea, opportunity, or just want to say hello? I’d love to connect and hear from you!</p>
+<p><a href="mailto:angelinfemic@gmail.com">angelinfemic@gmail.com</a></p>
+<p><a href="https://github.com/AngelinFemi" target="_blank" rel="noopener">github.com/AngelinFemi</a></p>
+<p><a href="https://www.linkedin.com/in/angelinfemic/" target="_blank" rel="noopener">linkedin.com/in/angelinfemic</a></p></div>
+<form class="card fl" id="form" novalidate>
+<label>Name<input name="name" autocomplete="name" required><span class="err"></span></label>
+<label>Email<input name="email" type="email" autocomplete="email" required><span class="err"></span></label>
+<label>Subject<input name="subject" required><span class="err"></span></label>
+<label>Message<textarea name="message" rows="5" required></textarea><span class="err"></span></label>
+<input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
+<button class="btn p" type="submit">Send Message</button>
+<div id="status" role="status" aria-live="polite"></div>
+</form></div>
+</main>
+<div id="ftr"></div>
+<script src="site.js"></script>
+</body>
+</html>
